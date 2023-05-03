@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lit Simple Starter Kit</title>
+  </head>
+  <body>
+
+    <normal-form>
+      <input type="text" name="text 1" placeholder="some text" />
+      <input type="text" name="text 2" placeholder="email" />
+      <example-associated-input name="text 3 custom"></example-associated-input>
+      <!-- <example-input name="text 3 custom"></example-input> -->
+    </normal-form>
+
+    <script type="module" src="/src/examples/normal.form.ts"></script>
+    <script
+      type="module"
+      src="/src/components/inputs/example-associated.input.ts"
+    ></script>
+    <script
+      type="module"
+      src="/src/components/inputs/example.input.ts"
+    ></script>
+  </body>
+</html>

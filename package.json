@@ -1,0 +1,19 @@
+{
+  "name": "form_associated",
+  "version": "1.0.0",
+  "description": "Examples for ddjs talk about form associated",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.16.3",
+    "lit": "^2.7.3",
+    "typescript": "^5.0.4",
+    "vite": "^4.3.4",
+    "vite-plugin-ssr": "^0.4.121"
+  }
+}
